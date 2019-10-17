@@ -38,7 +38,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         startTime = time.getMinutes();
 
         let x = event.which;
-        $('#' + x).css('background-color', 'pink');
+        $('#' + x).css('background-color', 'lightblue');
 
 
         if (event.key == sentences[whatSentence][letterPosition]) {
